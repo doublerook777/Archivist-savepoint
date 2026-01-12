@@ -6,6 +6,7 @@
 ---
 
 ## 🎮 About the Game
+The game uses **GODOT** game engine and free to use assets.
 In **Archivist**, kids become young explorers helping the world remember important knowledge:
 
 - 🔬 Solve simple **science** puzzles  
