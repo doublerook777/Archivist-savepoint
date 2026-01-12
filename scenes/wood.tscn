@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://dqthr1pbnjfif"]
+
+[ext_resource type="Texture2D" uid="uid://c0pfcp7r2q6n2" path="res://assets/sprites/wood.png" id="1_y25wi"]
+[ext_resource type="Script" uid="uid://dqfddy1v4rfc5" path="res://scripts/callout_wood.gd" id="2_d45ue"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d45ue"]
+size = Vector2(18, 10)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_y25wi"]
+radius = 9.0
+
+[node name="wood" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_y25wi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_d45ue")
+
+[node name="callout-wood" type="Area2D" parent="."]
+collision_mask = 2
+script = ExtResource("2_d45ue")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="callout-wood"]
+visible = false
+position = Vector2(-1, 0)
+shape = SubResource("CircleShape2D_y25wi")
+
+[connection signal="body_entered" from="callout-wood" to="callout-wood" method="_on_body_entered"]

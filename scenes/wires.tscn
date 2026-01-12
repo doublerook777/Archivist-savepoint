@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://dlrfpbix51v1x"]
+
+[ext_resource type="Texture2D" uid="uid://fi04hbb1oltj" path="res://assets/sprites/wire.png" id="1_gtcct"]
+[ext_resource type="Script" uid="uid://dekax001w7k8m" path="res://scripts/wires.gd" id="1_h0i5q"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h0i5q"]
+radius = 4.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0i5q"]
+size = Vector2(64, 10)
+
+[node name="wires" type="AnimatableBody2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(0.5, 1)
+collision_mask = 2
+script = ExtResource("1_h0i5q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(64, -3)
+shape = SubResource("CircleShape2D_h0i5q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -3)
+shape = SubResource("RectangleShape2D_h0i5q")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 1)
+texture = ExtResource("1_gtcct")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]

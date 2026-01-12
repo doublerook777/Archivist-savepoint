@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://cnm4foel5sd0c"]
+
+[ext_resource type="Texture2D" uid="uid://fi04hbb1oltj" path="res://assets/sprites/wire.png" id="1_fsrsr"]
+[ext_resource type="Script" uid="uid://n10o2gjixb5e" path="res://scripts/area_2d-wire3.gd" id="2_kpglp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kpglp"]
+size = Vector2(10, 128)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bpynx"]
+radius = 4.0
+
+[node name="wires_3" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(3, 0)
+shape = SubResource("RectangleShape2D_kpglp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5707964
+texture = ExtResource("1_fsrsr")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+script = ExtResource("2_kpglp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+visible = false
+position = Vector2(3, 63)
+shape = SubResource("CircleShape2D_bpynx")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]

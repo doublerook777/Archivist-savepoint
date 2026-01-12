@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://dvmejr12tr7na"]
+
+[ext_resource type="Texture2D" uid="uid://cefao6v4mry3s" path="res://assets/sprites/copper.png" id="1_4lqx2"]
+[ext_resource type="Script" uid="uid://38dq1p2bsghs" path="res://scripts/area_2d_copper.gd" id="1_xpmwn"]
+[ext_resource type="Script" uid="uid://bj1puh7d3ais3" path="res://scripts/callouts-copper.gd" id="3_o8csm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4lqx2"]
+radius = 4.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xpmwn"]
+size = Vector2(18, 10)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o8csm"]
+size = Vector2(16, 14)
+
+[node name="copper" type="StaticBody2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+script = ExtResource("1_xpmwn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+visible = false
+position = Vector2(-10, 0)
+shape = SubResource("CircleShape2D_4lqx2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_4lqx2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_xpmwn")
+
+[node name="callouts" type="Area2D" parent="."]
+collision_mask = 2
+script = ExtResource("3_o8csm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="callouts"]
+visible = false
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_o8csm")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
+[connection signal="body_entered" from="callouts" to="callouts" method="_on_body_entered"]

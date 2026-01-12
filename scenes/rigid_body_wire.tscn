@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://nthpxxgpycwk"]
+
+[ext_resource type="Texture2D" uid="uid://fi04hbb1oltj" path="res://assets/sprites/wire.png" id="1_jlc7e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1ytx0"]
+size = Vector2(64, 10)
+
+[node name="rigid_body_wire" type="RigidBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -3)
+shape = SubResource("RectangleShape2D_1ytx0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 1)
+texture = ExtResource("1_jlc7e")

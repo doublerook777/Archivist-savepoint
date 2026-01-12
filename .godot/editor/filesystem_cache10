@@ -1,0 +1,123 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1768219385
+export_presets.cfg::TextFile::-1::1768007527::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::560426827337180339::1766842904::1766843254::1::::<><><>0<>0<>3517a6bd6a190899d86c8f304207529e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1768219312
+32x32_Steampunk_Lamps.png::CompressedTexture2D::7109577824388098274::1767994433::1767994433::1::::<><><>0<>0<>cddd14a46da535d997d77e0089911bbf<>res://.godot/imported/32x32_Steampunk_Lamps.png-ac98d4ccf6bd30359dfcda486f4c1399.ctex::
+Houses Sprite Sheet.png::CompressedTexture2D::5173824003217824092::1766842904::1766843255::1::::<><><>0<>0<>f2941b1c80bc896916516e45df2e48aa<>res://.godot/imported/Houses Sprite Sheet.png-a821c4fc5ba72547dcbe2a64b7269229.ctex::
+::res://assets/CyberPunk Asset Pack/::1768219312
+asset page 1.png::CompressedTexture2D::1795034057424965814::1767949953::1767949953::1::::<><><>0<>0<>15dfe1d48bc92caf26d86f778a944a0b<>res://.godot/imported/asset page 1.png-9ed9d217f52104e8f0112965b4f86102.ctex::
+Buildings.png::CompressedTexture2D::9117965709231192808::1767950373::1767950374::1::::<><><>0<>0<>0f0c6ebda9cec38db2b6d29e7a61fc25<>res://.godot/imported/Buildings.png-9ec784fec8d5c6e99e2b3538657c2be3.ctex::
+page 2.png::CompressedTexture2D::3313850877743679817::1767949953::1767949953::1::::<><><>0<>0<>513b3a8990c952778a57a1bbe0874a7f<>res://.godot/imported/page 2.png-d23550235f14941dd12bd42eb601a667.ctex::
+::res://assets/Hana Caraka - Base Character [sample]/::1768219312
+::res://assets/Hana Caraka - Base Character [sample]/Hana Caraka - Base Character [sample]/::1768219312
+color palette.png::CompressedTexture2D::1058114825390980829::1766842904::1766843253::1::::<><><>0<>0<>73f070a3f67735644ddf8e5bb7194a74<>res://.godot/imported/color palette.png-b6a70faf2b24cb6efea536e4e24df8bc.ctex::
+death.png::CompressedTexture2D::1001271016823009981::1766842904::1766843254::1::::<><><>0<>0<>00ca44297abc664ca64f632151bc805a<>res://.godot/imported/death.png-2bfbc8a83783db3834c68bc1d8b1cb59.ctex::
+hurt.png::CompressedTexture2D::5100247999820575600::1766842904::1766843254::1::::<><><>0<>0<>142f054dc1f7ebe1505004ceebc64a5c<>res://.godot/imported/hurt.png-1de18ba64aecd6a60eb679f3de68decd.ctex::
+idle.png::CompressedTexture2D::5969280506058517976::1766842904::1766843254::1::::<><><>0<>0<>358e6f934ca4fd44adea6299028abced<>res://.godot/imported/idle.png-56e54d2c0e47bca870f403db0055c85c.ctex::
+jump.png::CompressedTexture2D::4032466706888039510::1766842904::1766843254::1::::<><><>0<>0<>c03a97e474ab741a5dacceb0b72833c1<>res://.godot/imported/jump.png-c034403961222c85456445a3b2eddc28.ctex::
+Read Me.txt::TextFile::-1::1766842904::0::1::::<><><>0<>0<><>::
+run.png::CompressedTexture2D::4773399287775860647::1766842904::1766843254::1::::<><><>0<>0<>9a75ee6297ff77fa1f5cc7cd7ccd8e24<>res://.godot/imported/run.png-a7b4c21d1ba896349ceff9ee8f06c149.ctex::
+walk.png::CompressedTexture2D::2950213654850645337::1766842904::1766843254::1::::<><><>0<>0<>e6b3864c53440696fb3042d10929bfef<>res://.godot/imported/walk.png-07365d2f7d3933a7eccfb5023361ecd4.ctex::
+::res://assets/Hana Caraka - Topdown Tileset [sample]/::1768219312
+color palette.png::CompressedTexture2D::7625929089036756181::1766842904::1766843253::1::::<><><>0<>0<>6e273927922de35bb08d15ba0b92e542<>res://.godot/imported/color palette.png-7b8bc1f6c5bb466f47e5768bf2e0f4e0.ctex::
+Read Me.txt::TextFile::-1::1766842904::0::1::::<><><>0<>0<><>::
+::res://assets/Hana Caraka - Topdown Tileset [sample]/Props/::1768219312
+Bridge - wood.png::CompressedTexture2D::4893489777872149006::1766842904::1766843254::1::::<><><>0<>0<>35dd0d455cf3c0dda6552748f28812c5<>res://.godot/imported/Bridge - wood.png-795932c10b67bb3345dc5c4f2eb3eabf.ctex::
+Bush.png::CompressedTexture2D::5831787736755342047::1766842904::1766843254::1::::<><><>0<>0<>3377b0c1d7b8f0e0043f9b11bf8a4412<>res://.godot/imported/Bush.png-b18572655b6346b5c5cefaec99b71366.ctex::
+Flower.png::CompressedTexture2D::2573225971520866780::1766842904::1766843254::1::::<><><>0<>0<>6d3930864100349bb181c166c3e0aa62<>res://.godot/imported/Flower.png-a54b042c1af92e81b41f8719e0f0e0a0.ctex::
+Grass.png::CompressedTexture2D::9191983969753012041::1766842904::1766843254::1::::<><><>0<>0<>759403e2d4e7719ccf9afb7409ce0af0<>res://.godot/imported/Grass.png-1f059842e0d266e167f8b61d310e35bd.ctex::
+Other.png::CompressedTexture2D::2143080385336325785::1766842904::1766843254::1::::<><><>0<>0<>1d9d933005a72eefe48401cb218feae6<>res://.godot/imported/Other.png-7c1de0b570b1ded48279b76ff65347df.ctex::
+Stone and Rock.png::CompressedTexture2D::1114391001875376960::1766842904::1766843253::1::::<><><>0<>0<>219241edb4c998e9762fe56337edee73<>res://.godot/imported/Stone and Rock.png-be1d28f6e7290df7ebc96e346081f416.ctex::
+Tree.png::CompressedTexture2D::7890500786832962883::1766842904::1766843253::1::::<><><>0<>0<>b11e858c8fa942acbf4b66d4bf4b5cbe<>res://.godot/imported/Tree.png-8604e801b20a237038eec199519b1f09.ctex::
+::res://assets/Hana Caraka - Topdown Tileset [sample]/Props/animated/::1768219312
+rock 1.png::CompressedTexture2D::5692119561831555382::1766842904::1766843254::1::::<><><>0<>0<>cb82eb0b04b41c016ff1902f5c9c396b<>res://.godot/imported/rock 1.png-53d2c0e530cc8371a9c27bab314de044.ctex::
+small stone 1.png::CompressedTexture2D::7324684699300405044::1766842904::1766843254::1::::<><><>0<>0<>d0ce8acf7f0ebfdc076ddc078d8f3803<>res://.godot/imported/small stone 1.png-28771c0e60f978094b6c5b00e6c1ff83.ctex::
+small stone 2.png::CompressedTexture2D::7432026816782860252::1766842904::1766843254::1::::<><><>0<>0<>a3369f67ac246e26de83161de1b06f4f<>res://.godot/imported/small stone 2.png-0ae6377ff4aea44b822f7abef94c5478.ctex::
+stone 1.png::CompressedTexture2D::8350547031059464842::1766842904::1766843254::1::::<><><>0<>0<>1fdf5010e915ddd26b973391bd75eacf<>res://.godot/imported/stone 1.png-060d86311bc267ab39ff132630fdcd99.ctex::
+water lily 1.png::CompressedTexture2D::2837824968572500061::1766842904::1766843254::1::::<><><>0<>0<>d58e9394ed89c0e87840788b395ba4fa<>res://.godot/imported/water lily 1.png-23cf6f7765c3a289045d036dfb070e34.ctex::
+water lily 2.png::CompressedTexture2D::1924441582116473533::1766842904::1766843254::1::::<><><>0<>0<>f8ef43cf36ff7034f38653e6a26dfa38<>res://.godot/imported/water lily 2.png-998a5db99b16f3364ad3e86e083bface.ctex::
+water plant 1.png::CompressedTexture2D::941001845297079063::1766842904::1766843254::1::::<><><>0<>0<>464012bd6a4495c51c3c204c7261febe<>res://.godot/imported/water plant 1.png-265fc1eb313e37e599dd84907a7a410e.ctex::
+water plant 2.png::CompressedTexture2D::3065367823032202557::1766842904::1766843254::1::::<><><>0<>0<>d4eb5ebbf73eb2d45654346e0b5f2203<>res://.godot/imported/water plant 2.png-b2c232714e84f39a25ce888866ae57b5.ctex::
+::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/::1768219312
+dirt wall.png::CompressedTexture2D::4075737637274020558::1766842904::1766843253::1::::<><><>0<>0<>07e5684e717a8a03ab1db1d2f229464b<>res://.godot/imported/dirt wall.png-cd3bd3ca463b4bcda640ab9b0a94ad1b.ctex::
+dirt.png::CompressedTexture2D::7491363108021271827::1766842904::1766843253::1::::<><><>0<>0<>0b13249e400f9a9c9330eeddf805f24a<>res://.godot/imported/dirt.png-05b7e74c6bf179010edcba161b75cdcb.ctex::
+sand.png::CompressedTexture2D::6177565251035776783::1766842904::1766843253::1::::<><><>0<>0<>aa46e3d66670e8ada66b946913791470<>res://.godot/imported/sand.png-b1896bb28c0b6cd2cf28956e54fedc74.ctex::
+::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Extras/::1768219312
+steps.png::CompressedTexture2D::691224549544321709::1766842904::1766843253::1::::<><><>0<>0<>742cf4c33fa44b1264805b49708a1e84<>res://.godot/imported/steps.png-18a21d04bc6fb94e0b07764f6d26fb80.ctex::
+texture.png::CompressedTexture2D::7952409903795990077::1766842904::1766843253::1::::<><><>0<>0<>9e7ef4864c9ef84b0c7905d2c1af3b44<>res://.godot/imported/texture.png-61719794e3f4ee2af72f821d0a475b95.ctex::
+tufts and lumps.png::CompressedTexture2D::5245419851856992932::1766842904::1766843253::1::::<><><>0<>0<>d191f1ae51cb3bcb1805026ce3b4dd70<>res://.godot/imported/tufts and lumps.png-6d2583ce65b6501490a5828ab4c74ba6.ctex::
+::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/::1768219312
+fall.png::CompressedTexture2D::7123046539500838536::1766842904::1766843253::1::::<><><>0<>0<>b8512b8531b872e14f3b956f3846ae0b<>res://.godot/imported/fall.png-b17db1185e4e9e98bbec5f997356a0ae.ctex::
+ice.png::CompressedTexture2D::3267754558316774802::1766842904::1766843253::1::::<><><>0<>0<>15b250374277e5163e125af77183def0<>res://.godot/imported/ice.png-e1c6accbe06e28ff547b318a46a9cec7.ctex::
+spring.png::CompressedTexture2D::3256613810487348903::1766842904::1766843253::1::::<><><>0<>0<>44403e12073e700efc13cea01d7047fb<>res://.godot/imported/spring.png-10d04366c933789996502dd0f458e3dd.ctex::
+summer.png::CompressedTexture2D::6265044906986694907::1766842904::1766843253::1::::<><><>0<>0<>2f199ffd3887af8257525aaa663a2fd0<>res://.godot/imported/summer.png-826a388e05b6bd08914d8be126f4dee4.ctex::
+winter.png::CompressedTexture2D::7728699571509346028::1766842904::1766843253::1::::<><><>0<>0<>f6fb2aedc8f3f4731eb099959898cb1d<>res://.godot/imported/winter.png-f24c8b552c73340f8a6c9734616ac50e.ctex::
+::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Water/::1768219312
+water - fall.png::CompressedTexture2D::5132235470272514320::1766842904::1766843253::1::::<><><>0<>0<>cb18d6616c86dfac167c34003865ff74<>res://.godot/imported/water - fall.png-55b4b9e66c82c1d9d62d357d29e6f88d.ctex::
+water - spring.png::CompressedTexture2D::1942354366591910014::1766842904::1766843253::1::::<><><>0<>0<>0927db348d33eb5487fc7eba4a8a7d45<>res://.godot/imported/water - spring.png-3a47c0ab399b36dbd4971b2566700c24.ctex::
+water - summer.png::CompressedTexture2D::2315484553501123106::1766842904::1766843253::1::::<><><>0<>0<>2628f96a4f3f8a833fd465ccc096b814<>res://.godot/imported/water - summer.png-6fdf2a8ef8bc80e50c9a2806de609292.ctex::
+::res://assets/pixel_cyberpunk_interior_free_1.0.1/::1768219312
+dungeon_sheet.png::CompressedTexture2D::1905062766261667930::1767905461::1767905461::1::::<><><>0<>0<>c212ffa6f119a1afa2dec9af790e74c6<>res://.godot/imported/dungeon_sheet.png-b3d57308d655ac9c62c159bf08198aae.ctex::
+pixel-cyberpunk-interior.png::CompressedTexture2D::2926894977928009665::1767895517::1767895523::1::::<><><>0<>0<>3e36067259fe1ba6fd82201106857daa<>res://.godot/imported/pixel-cyberpunk-interior.png-eaa2172b5c7e9347f551404226e52633.ctex::
+river-2.png::CompressedTexture2D::6378358766079448238::1767968359::1767968360::1::::<><><>0<>0<>79521de4ce063542451e85eec6db096e<>res://.godot/imported/river-2.png-ced22a999bbd3cc71ee7baf2ee456618.ctex::
+river-3.png::CompressedTexture2D::756745339619581202::1767968359::1767968360::1::::<><><>0<>0<>b7b476fcac52da7173d8a1cd6f3f5c7c<>res://.godot/imported/river-3.png-f875a5f59913a065deb581b947799f6e.ctex::
+river.png::CompressedTexture2D::101825237779116479::1767968359::1767968360::1::::<><><>0<>0<>1eb11525831b4feed33b1d90f19c99f5<>res://.godot/imported/river.png-3ff8704415cacbd7b477ef8b5e1f7675.ctex::
+tileset x1.png::CompressedTexture2D::8330898470699911907::1767904856::1767904856::1::::<><><>0<>0<>1315eb5328431a1ee7167e904f16b6e0<>res://.godot/imported/tileset x1.png-0e50fe6f6743574f3137a20bcd2bf253.ctex::
+::res://assets/puzzle-pressure-plate/::1768219312
+boulder.png::CompressedTexture2D::4419006686594070454::1768112588::1768112825::1::::<><><>0<>0<>d964a8f6ac50adaacd2aeb36f51d4b54<>res://.godot/imported/boulder.png-f12d29788aa98adf06e5e3910ea13589.ctex::
+pressure_plate_stone.png::CompressedTexture2D::5024704707620895152::1768112588::1768112825::1::::<><><>0<>0<>1e4dc54a2de9f4208b5f7019742f8994<>res://.godot/imported/pressure_plate_stone.png-48ca52afdc6b3425cede2ee0d7220d17.ctex::
+wall_stone.png::CompressedTexture2D::9171816041835454691::1768112588::1768112825::1::::<><><>0<>0<>c9edb8ca717d2bdde8fdee34814a6d5d<>res://.godot/imported/wall_stone.png-a5f8f55a38ec618b33d588f8c58bf1f4.ctex::
+::res://assets/sprites/::1768219312
+advanced furnace idle.png::CompressedTexture2D::1785756668903975468::1767996746::1767996746::1::::<><><>0<>0<>7e6d984be3c8660f6dbc4cc7369e685a<>res://.godot/imported/advanced furnace idle.png-72e79277a3f9321dc4995aca3977029c.ctex::
+advanced furnace.png::CompressedTexture2D::7501481954856798236::1767996447::1767996448::1::::<><><>0<>0<>8f0de3e98e32ff647d58706c167b6bbb<>res://.godot/imported/advanced furnace.png-84c8250f753b45b88628a1c8075c783f.ctex::
+building_1 animation.png::CompressedTexture2D::3760317982027085455::1767968200::1767968200::1::::<><><>0<>0<>f9f58832db8975a7ac317721cdaada79<>res://.godot/imported/building_1 animation.png-08831c4c0021a542f8b6041661a0eadc.ctex::
+copper.png::CompressedTexture2D::5063945293822406482::1767981680::1767981681::1::::<><><>0<>0<>2e829cdf054c7d0b827c4bd520f6d635<>res://.godot/imported/copper.png-7e44fb3ceaf7cbd2673aad4df99268d4.ctex::
+door.png::CompressedTexture2D::4011790743238629595::1767970304::1767970304::1::::<><><>0<>0<>97756beb4e0f5f9df22cfdea40fde047<>res://.godot/imported/door.png-3ee73939605461ff1e6ac88070535c2f.ctex::
+laser door opening.png::CompressedTexture2D::4205553677937779351::1767906444::1767906450::1::::<><><>0<>0<>ce32f1316bec5add2f5db7cad1a15d7f<>res://.godot/imported/laser door opening.png-d822c829b867f452cb04814799f8c41e.ctex::
+power_station.png::CompressedTexture2D::3295623589115461185::1767949357::1767949377::1::::<><><>0<>0<>7f92d3f47fffdf7828ba69443ec13b2d<>res://.godot/imported/power_station.png-ab7d1a79ddfc982223b6b1ae4ffdcc5d.ctex::
+wire.png::CompressedTexture2D::369029322354042923::1767951986::1767951986::1::::<><><>0<>0<>62a0c9a8ade3a0740b5c62c0ecac3b7a<>res://.godot/imported/wire.png-5956cd182d6b85aefda5d8e83ed39555.ctex::
+wood.png::CompressedTexture2D::6558836119292692385::1767981680::1767981681::1::::<><><>0<>0<>743e4ab39d544c9426feaf7f964c33f7<>res://.godot/imported/wood.png-4dba2229a7387686a23e4a4eaab85ae7.ctex::
+::res://assets/sprites/callout/::1768219312
+multi-line-tilemap_0001.png::CompressedTexture2D::5861984494502616721::1767983875::1767983876::1::::<><><>0<>0<>e964e5236e14aab1ec9e09050335106e<>res://.godot/imported/multi-line-tilemap_0001.png-2483b32789c056ac5f0f4153d3224ff7.ctex::
+multi-line-tilemap_0002.png::CompressedTexture2D::5516041610219999559::1767983875::1767983876::1::::<><><>0<>0<>29968743cbdb8ac8afd7324129e8c01b<>res://.godot/imported/multi-line-tilemap_0002.png-517c14370521de3449fc45a074715f2d.ctex::
+multi-line-tilemap_0003.png::CompressedTexture2D::2643004244138769886::1767983875::1767983876::1::::<><><>0<>0<>110607257a61774e5a15292b167b5171<>res://.godot/imported/multi-line-tilemap_0003.png-c576d843e25265af9b3c786537d1eb9a.ctex::
+multi-line-tilemap_0004.png::CompressedTexture2D::2247688256686237329::1767983876::1767983876::1::::<><><>0<>0<>a1cf6916f34b419ab960dcda3f1c4bcf<>res://.godot/imported/multi-line-tilemap_0004.png-2c753f5ef76f3cc2a1cb92ce440598ba.ctex::
+test-turn-on.png::CompressedTexture2D::3304358940467279293::1768005575::1768005575::1::::<><><>0<>0<>09c2de093fe9f272fc06dc1b2a628ecc<>res://.godot/imported/test-turn-on.png-85244abdb9873f1fe649173641149f7e.ctex::
+wood-callout_0001.png::CompressedTexture2D::1589263061800249936::1767984552::1767984552::1::::<><><>0<>0<>82ea2b60055b70f88f8cf28186d16d93<>res://.godot/imported/wood-callout_0001.png-2ac01dea3bab143185bbb1ff5fdba81d.ctex::
+wood-callout_0002.png::CompressedTexture2D::534483927842632773::1767984552::1767984552::1::::<><><>0<>0<>03c17ef5aa990e209024962bb75f96bb<>res://.godot/imported/wood-callout_0002.png-606eae6b48d85d603993b1154f2eb34f.ctex::
+wood-callout_0003.png::CompressedTexture2D::89280277258848409::1767984552::1767984552::1::::<><><>0<>0<>8ae83aba4ad2f28f715962f38512a3fa<>res://.godot/imported/wood-callout_0003.png-610c05d17b23ffddf5a873ede8597516.ctex::
+wood-callout_0004.png::CompressedTexture2D::1283818922210400468::1767984552::1767984552::1::::<><><>0<>0<>f07d53aebfcc66541dcc2cf48aaa2ec8<>res://.godot/imported/wood-callout_0004.png-5f68a9ccddd50e731d544af18faeb9dc.ctex::
+::res://scenes/::1768219312
+bars.tscn::PackedScene::529847061008144788::1767979351::0::1::::<><><>0<>0<><>::uid://b06g4b7vufoct::::res://assets/sprites/laser door opening.png
+bulb1.tscn::PackedScene::6534967784077437224::1768004726::0::1::::<><><>0<>0<><>::uid://de41kupvkcaam::::res://assets/sprites/advanced furnace.png<>uid://0pbffb8oi13m::::res://assets/sprites/advanced furnace idle.png
+bulb2.tscn::PackedScene::3751436996312745087::1768003634::0::1::::<><><>0<>0<><>::uid://de41kupvkcaam::::res://assets/sprites/advanced furnace.png<>uid://0pbffb8oi13m::::res://assets/sprites/advanced furnace idle.png
+bulb3.tscn::PackedScene::6416198488071292137::1768003681::0::1::::<><><>0<>0<><>::uid://de41kupvkcaam::::res://assets/sprites/advanced furnace.png<>uid://0pbffb8oi13m::::res://assets/sprites/advanced furnace idle.png
+copper.tscn::PackedScene::8658260174957630162::1767992795::0::1::::<><><>0<>0<><>::uid://cefao6v4mry3s::::res://assets/sprites/copper.png<>uid://38dq1p2bsghs::::res://scripts/area_2d_copper.gd<>uid://bj1puh7d3ais3::::res://scripts/callouts-copper.gd
+copper_2.tscn::PackedScene::7454052977508070677::1768000688::0::1::::<><><>0<>0<><>::uid://cefao6v4mry3s::::res://assets/sprites/copper.png<>uid://so6lidnua73i::::res://scripts/area_2d_copper_2.gd
+door.tscn::PackedScene::654169376034720283::1768001889::0::1::::<><><>0<>0<><>::uid://bxfluwfxom5wx::::res://assets/sprites/door.png
+game.tscn::PackedScene::8733379315833197054::1768112707::0::1::::<><><>0<>0<><>::uid://br8mifg4g85fk::::res://scenes/player.tscn<>uid://dtdmjnd2ae35j::::res://scenes/puzzle_pressure_plate_1.tscn<>uid://ciu1rjtvsiqxf::::res://scenes/world.tscn
+lvl_a.tscn::PackedScene::153675483357593545::1768115116::0::1::::<><><>0<>0<><>::uid://h4r467dmlui6::::res://scripts/lvl_a.gd<>uid://br8mifg4g85fk::::res://scenes/player.tscn<>uid://bhx2sd00dg3xd::::res://assets/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png<>uid://dqxsxe3nanjup::::res://assets/pixel_cyberpunk_interior_free_1.0.1/tileset x1.png<>uid://2e3dt4yeplfm::::res://assets/pixel_cyberpunk_interior_free_1.0.1/dungeon_sheet.png<>uid://hswrei073kky::::res://scenes/bars.tscn<>uid://dlrfpbix51v1x::::res://scenes/wires.tscn<>uid://d252te6jrjf2g::::res://assets/CyberPunk Asset Pack/Buildings.png<>uid://bxatvcln0l682::::res://scripts/fit.gd<>uid://d63f5g4iwcna::::res://scripts/wires-main.gd<>uid://bm7oo6rdau7wv::::res://assets/sprites/power_station.png<>uid://br7aau0jbajh8::::res://scenes/wires_2.tscn<>uid://cnm4foel5sd0c::::res://scenes/wires_3.tscn<>uid://c8j6ycraq13r7::::res://assets/32x32_Steampunk_Lamps.png<>uid://jk5crum6876f::::res://scenes/door.tscn<>uid://dqthr1pbnjfif::::res://scenes/wood.tscn<>uid://dvmejr12tr7na::::res://scenes/copper.tscn<>uid://wv36vt06u401::::res://assets/sprites/callout/wood-callout_0001.png<>uid://hu54wjbt5xg4::::res://assets/sprites/callout/wood-callout_0002.png<>uid://bjioyxpd1jcr::::res://assets/sprites/callout/wood-callout_0003.png<>uid://sj5kspn0uleq::::res://assets/sprites/callout/wood-callout_0004.png<>uid://cprua7trarvgj::::res://assets/sprites/callout/multi-line-tilemap_0001.png<>uid://ckuantywyxaj4::::res://assets/sprites/callout/multi-line-tilemap_0002.png<>uid://bdwj5ngcuf823::::res://assets/sprites/callout/multi-line-tilemap_0003.png<>uid://7a2dkmg4g5rx::::res://assets/sprites/callout/multi-line-tilemap_0004.png<>uid://deg2fs807oltt::::res://scenes/copper_2.tscn<>uid://c0dt72d627ttg::::res://scenes/bulb1.tscn<>uid://btphvb3rk3u5t::::res://scenes/bulb2.tscn<>uid://cxob37so6fbth::::res://scenes/bulb3.tscn<>uid://bncwkrgatogaf::::res://assets/sprites/callout/test-turn-on.png
+player.tscn::PackedScene::3648498654900615348::1768112588::0::1::::<><><>0<>0<><>::uid://crbtgbsytbdl5::::res://assets/Hana Caraka - Base Character [sample]/Hana Caraka - Base Character [sample]/idle.png<>uid://cy0yw8tid62lf::::res://scripts/playerwalk.gd<>uid://bibdt8tnsetsj::::res://assets/Hana Caraka - Base Character [sample]/Hana Caraka - Base Character [sample]/walk.png
+puzzle_pressure_plate_1.tscn::PackedScene::8499788578187351605::1768112588::0::1::::<><><>0<>0<><>::uid://bgkq5nux2etnn::::res://scripts/wall.gd<>uid://d3w5p8sl0dkqt::::res://assets/puzzle-pressure-plate/wall_stone.png<>uid://c8qpshnxqnjki::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/fall.png<>uid://d3etu27irj5te::::res://scripts/pressure_plate.gd<>uid://b37unobs5k0xu::::res://assets/puzzle-pressure-plate/boulder.png<>uid://cduafggs7i4fs::::res://assets/puzzle-pressure-plate/pressure_plate_stone.png
+rigid_body_wire.tscn::PackedScene::952131194340654254::1767956228::0::1::::<><><>0<>0<><>::uid://fi04hbb1oltj::::res://assets/sprites/wire.png
+wires.tscn::PackedScene::7966764190757018735::1767988814::0::1::::<><><>0<>0<><>::uid://fi04hbb1oltj::::res://assets/sprites/wire.png<>uid://dekax001w7k8m::::res://scripts/wires.gd
+wires_2.tscn::PackedScene::3645692203166943523::1768002570::0::1::::<><><>0<>0<><>::uid://fi04hbb1oltj::::res://assets/sprites/wire.png<>uid://cd8lbt3p7thea::::res://scripts/area_2d-wires_2.gd
+wires_3.tscn::PackedScene::5711839331535803568::1768005128::0::1::::<><><>0<>0<><>::uid://fi04hbb1oltj::::res://assets/sprites/wire.png<>uid://n10o2gjixb5e::::res://scripts/area_2d-wire3.gd
+wood.tscn::PackedScene::8321963492903043105::1767992801::0::1::::<><><>0<>0<><>::uid://c0pfcp7r2q6n2::::res://assets/sprites/wood.png<>uid://dqfddy1v4rfc5::::res://scripts/callout_wood.gd
+world.tscn::PackedScene::5377249174919934867::1768112588::0::1::::<><><>0<>0<><>::uid://cfedfyvqc4kiq::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Water/water - fall.png<>uid://2w5j7j1l3oyg::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Water/water - spring.png<>uid://78vxske6rt0m::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Water/water - summer.png<>uid://c8qpshnxqnjki::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/fall.png<>uid://bms6o72xbm4eg::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/ice.png<>uid://bmnr7ooygl2ad::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/spring.png<>uid://cvi3myw3t85f8::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png<>uid://did3s185ukuh5::::res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/winter.png<>uid://cfyiei820tnr5::::res://assets/Houses Sprite Sheet.png
+::res://scripts/::1768219313
+area_2d-wire3.gd::GDScript::967673142653601372::1768114729::0::1::::<>Area2D<><>0<>0<><>::
+area_2d-wires_2.gd::GDScript::5052203078821833372::1768114826::0::1::::<>Area2D<><>0<>0<><>::
+area_2d_copper.gd::GDScript::2033624201437634520::1767992101::0::1::::<>Area2D<><>0<>0<><>::
+area_2d_copper_2.gd::GDScript::1294202769988773600::1768004566::0::1::::<>Area2D<><>0<>0<><>::
+boulder_2.gd::GDScript::3127831753931551560::1768112588::0::1::::<>RigidBody2D<><>0<>0<><>::
+callouts-copper.gd::GDScript::3072740986081467456::1767991111::0::1::::<>Area2D<><>0<>0<><>::
+callout_wood.gd::GDScript::8292794248137024238::1767992101::0::1::::<>Area2D<><>0<>0<><>::
+fit.gd::GDScript::4001955334566498625::1767967832::0::1::::<>Area2D<><>0<>0<><>::
+lvl_a.gd::GDScript::552274515044625911::1767957994::0::1::::<>Node2D<><>0<>0<><>::
+playerwalk.gd::GDScript::6510481316833357647::1768112588::0::1::::player<>CharacterBody2D<><>0<>0<><>::
+pressure_plate.gd::GDScript::9133997990651895130::1768112588::0::1::::<>Area2D<><>0<>0<><>::
+wall.gd::GDScript::2829223283544219075::1768112588::0::1::::<>AnimatableBody2D<><>0<>0<><>::
+wires-main.gd::GDScript::276272832355451922::1767966132::0::1::::wire<>AnimatableBody2D<><>0<>0<><>::
+wires.gd::GDScript::7460703629347697910::1767963939::0::1::::<>Area2D<><>0<>0<><>::

@@ -1,0 +1,132 @@
+[gd_scene load_steps=16 format=4 uid="uid://dtdmjnd2ae35j"]
+
+[ext_resource type="Script" uid="uid://bgkq5nux2etnn" path="res://scripts/wall.gd" id="1_5t88h"]
+[ext_resource type="Texture2D" uid="uid://d3w5p8sl0dkqt" path="res://assets/puzzle-pressure-plate/wall_stone.png" id="1_evgwe"]
+[ext_resource type="Texture2D" uid="uid://c8qpshnxqnjki" path="res://assets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/fall.png" id="2_repsh"]
+[ext_resource type="Script" uid="uid://d3etu27irj5te" path="res://scripts/pressure_plate.gd" id="3_5t88h"]
+[ext_resource type="Texture2D" uid="uid://b37unobs5k0xu" path="res://assets/puzzle-pressure-plate/boulder.png" id="3_8j4ni"]
+[ext_resource type="Texture2D" uid="uid://cduafggs7i4fs" path="res://assets/puzzle-pressure-plate/pressure_plate_stone.png" id="4_5t88h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gvbe6"]
+size = Vector2(128, 16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_doeet"]
+texture = ExtResource("2_repsh")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_3k5sv"]
+sources/0 = SubResource("TileSetAtlasSource_doeet")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_doeet"]
+atlas = ExtResource("4_5t88h")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yh56h"]
+atlas = ExtResource("4_5t88h")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_csu7a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_doeet")
+}],
+"loop": true,
+"name": &"pressed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yh56h")
+}],
+"loop": true,
+"name": &"unpressed",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_14psk"]
+radius = 4.0
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_5t88h"]
+friction = 10.0
+rough = true
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e0e1o"]
+size = Vector2(14, 8)
+
+[node name="puzzle-pressure-plate-1" type="Node2D"]
+z_as_relative = false
+y_sort_enabled = true
+
+[node name="Wall" type="AnimatableBody2D" parent="." node_paths=PackedStringArray("target_plate")]
+z_index = -2
+position = Vector2(0, -56)
+collision_layer = 4
+script = ExtResource("1_5t88h")
+target_plate = NodePath("../pressure-plate")
+
+[node name="Sprite2D" type="Sprite2D" parent="Wall"]
+position = Vector2(0, 8)
+texture = ExtResource("1_evgwe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall"]
+position = Vector2(0, 24)
+shape = SubResource("RectangleShape2D_gvbe6")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+z_index = -1
+z_as_relative = false
+tile_map_data = PackedByteArray("AAD8//7/AAABAAAAAAD9//7/AAABAAAAAAD+//7/AAABAAAAAAD///7/AAABAAAAAAAAAP7/AAABAAAAAAABAP7/AAABAAAAAAACAP7/AAABAAAAAAADAP7/AAABAAAAAAADAP//AAABAAEAAAACAP//AAABAAEAAAABAP//AAABAAEAAAAAAP//AAABAAEAAAD9////AAABAAEAAAD8////AAABAAEAAAD+////AAABAAEAAAD/////AAABAAEAAAD//wAAAAABAAEAAAD+/wAAAAABAAEAAAD9/wAAAAABAAEAAAD9/wEAAAABAAEAAAD8/wEAAAABAAEAAAD8/wAAAAABAAEAAAD+/wEAAAABAAEAAAD+/wIAAAABAAEAAAD9/wIAAAABAAEAAAD8/wIAAAABAAEAAAD//wEAAAABAAEAAAAAAAEAAAABAAEAAAAAAAAAAAABAAEAAAABAAAAAAABAAEAAAACAAAAAAABAAEAAAADAAAAAAABAAEAAAADAAEAAAABAAEAAAADAAIAAAABAAEAAAACAAIAAAABAAEAAAABAAIAAAABAAEAAAAAAAIAAAABAAEAAAD//wIAAAABAAEAAAABAAEAAAABAAEAAAACAAEAAAABAAEAAAADAAMAAAABAAEAAAACAAMAAAABAAEAAAABAAMAAAABAAEAAAAAAAMAAAABAAEAAAD//wMAAAABAAEAAAD+/wMAAAABAAEAAAD9/wMAAAABAAEAAAD8/wMAAAABAAEAAAD8/wQAAAABAAEAAAD9/wQAAAABAAEAAAD+/wQAAAABAAEAAAD//wQAAAABAAEAAAAAAAQAAAABAAEAAAABAAQAAAABAAEAAAACAAQAAAABAAEAAAADAAQAAAABAAEAAAD8/wUAAAABAAEAAAD9/wUAAAABAAEAAAD+/wUAAAABAAEAAAD//wUAAAABAAEAAAAAAAUAAAABAAEAAAABAAUAAAABAAEAAAACAAUAAAABAAEAAAADAAUAAAABAAEAAAADAAYAAAABAAEAAAACAAYAAAABAAEAAAABAAYAAAABAAEAAAAAAAYAAAABAAEAAAD//wYAAAABAAEAAAD+/wYAAAABAAEAAAD9/wYAAAABAAEAAAD8/wYAAAABAAEAAAD7////AAAAAAEAAAD7/wAAAAAAAAEAAAD7/wEAAAAAAAEAAAD7/wIAAAAAAAEAAAD7/wMAAAAAAAEAAAD7/wQAAAAAAAEAAAD7/wUAAAAAAAEAAAD7/wYAAAAAAAEAAAAEAAYAAAACAAEAAAAEAAUAAAACAAEAAAAEAAQAAAACAAEAAAAEAAMAAAACAAEAAAAEAAIAAAACAAEAAAAEAAEAAAACAAEAAAAEAAAAAAACAAEAAAAEAP//AAACAAEAAAD8/wcAAAABAAIAAAD9/wcAAAABAAIAAAD+/wcAAAABAAIAAAD//wcAAAABAAIAAAAAAAcAAAABAAIAAAABAAcAAAABAAIAAAACAAcAAAABAAIAAAADAAcAAAABAAIAAAAEAAcAAAACAAIAAAD7/wcAAAAAAAIAAAAEAP7/AAACAAEAAAD7//7/AAAAAAEAAAA=")
+tile_set = SubResource("TileSet_3k5sv")
+
+[node name="pressure-plate" type="Area2D" parent="."]
+z_index = -1
+z_as_relative = false
+position = Vector2(40, 24)
+collision_layer = 2
+collision_mask = 3
+script = ExtResource("3_5t88h")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="pressure-plate"]
+position = Vector2(0, 8)
+sprite_frames = SubResource("SpriteFrames_csu7a")
+animation = &"unpressed"
+autoplay = "unpressed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pressure-plate"]
+position = Vector2(0, 8)
+shape = SubResource("CircleShape2D_14psk")
+
+[node name="boulder2" type="RigidBody2D" parent="." groups=["pushable"]]
+z_as_relative = false
+y_sort_enabled = true
+position = Vector2(-48, 48)
+collision_layer = 2
+mass = 5.0
+physics_material_override = SubResource("PhysicsMaterial_5t88h")
+gravity_scale = 0.0
+lock_rotation = true
+linear_damp = 15.0
+
+[node name="Sprite2D" type="Sprite2D" parent="boulder2"]
+y_sort_enabled = true
+position = Vector2(0, -8)
+texture = ExtResource("3_8j4ni")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="boulder2"]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_e0e1o")
