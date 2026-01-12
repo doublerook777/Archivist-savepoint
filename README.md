@@ -30,4 +30,4 @@ Designed to be educational, safe, and imagination-friendly.
 ---
 
 # Run the game (example)
-python main.py
+Open the project in GODOT
